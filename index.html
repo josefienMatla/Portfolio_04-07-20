@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <title>Josefien Matla - Home</title>
+        <link rel="stylesheet" href="css/stylesheet.css" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body class="home">
+        <header>
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Josefien Matla logo" />
+            </a>
+
+            <button id="menu-toggle" tabindex="0">
+                Menu
+                <svg viewBox="0 0 25 21">
+                    <rect x="0" y="0" width="25" height="3" />
+                    <rect x="0" y="9" width="25" height="3" />
+                    <rect x="0" y="18" width="25" height="3" />
+                </svg>
+            </button>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section class="hero">
+                <div class="wrapper">
+                    <div class="design">
+                        <h1 class="title">Design</h1>
+                        <p>
+                            Mijn passie ligt bij het UI/UX ontwerpen ik vind
+                            interactie erg interessant.
+                        </p>
+                    </div>
+                    <div class="code">
+                        <h1 class="title">&#60;Code&#62;</h1>
+                        <p>
+                            Ik beheers de basis van HTML en CSS. Dit is iets
+                            waar ik graag nog in wil groeien en zeker met
+                            betrekking tot Design.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projecten">
+                <h1 class="section-title">Hier mijn laatste werk</h1>
+
+                <div class="project-group">
+                    <!-- ik zou ul -> li -> article van maken voor semantiek -->
+                     <article>
+                    <a href="activate_your_business.html">
+                        <img src="/img/activate_your_business1.png" alt="website pagina's" />
+                        <h3 class="title"> Activate your Business</h3>
+                        <p>Stage</p>
+                    </a>
+                </article>
+                <article>
+                    <a href="vocab.html">
+                        <img src="/img/vocab.png" alt="website pagina's" />
+                        <h3 class="title">Vocab</h3>
+                        <p>Voice assistant</p>
+                    </a>
+                </article>
+                    <article>
+                        <a href="aqua-buddy.html">
+                            <img
+                                src="img/Aqua%20buddy.png"
+                                alt="MAAS oplossing poster"
+                            />
+                            <h3 class="title">Aqua buddy</h3>
+                            <p>IOT oplossing</p>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="personalbuddy.html">
+                            <img
+                                src="img/ubi%20.png"
+                                alt="waterfles met poppetje"
+                            />
+                            <h3 class="title">Personal bottle</h3>
+                            <p>IOT oplossing</p>
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="one-half column">
+                        <p>
+                            E-mail:
+                            <a href="mailto:josefien.matla@gmail.com"
+                                >Josefien.matla@gmail.com</a
+                            >
+                        </p>
+                    </div>
+                    <div class="one-half column">
+                        <p>
+                            Telefoonnummer:
+                            <a href="tel:+31683240503">06 - 83 24 05 03</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- hier wordt de javascript gekoppeld-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
